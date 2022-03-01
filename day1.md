@@ -16,9 +16,7 @@ More than before, I clearly understand what Devops is not. 
 
 If the points above are clear, then what is DevOps?
 
-DevOps is a way to do smarter things in Software Development
-
-*I will expand this in the future, but let's stop here for today.
+DevOps is a way to do smarter things in Software Development *I will expand this in the future, but let's stop here for today.*
 
 He explained more that DevOps is a set of practices that help to achieve the goal of this movement: reducing the time between the ideation phase of a product and its release in production to the end-user or whomever could be an internal team or customer.
 
