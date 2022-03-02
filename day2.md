@@ -14,12 +14,12 @@ To continuously deploy and maintain this application without making the end-user
 
 *Some important questions are:*
 
-''' code
+``` code
 
 How do we get those features and bug fixes into our production and make it available to those end users?
 
 How do we release the new application version?
-'''
+```
 
 This is one of the major tasks for a DevOps engineer, and the important thing here is not to just figure out how to do this once but we need to do this continuously and in an automated, efficient way which also needs to include testing!
 
