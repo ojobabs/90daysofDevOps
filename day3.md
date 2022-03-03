@@ -4,6 +4,8 @@
 
 We discussed on the major purpose why DevOps is needed which is automation continuously running in a loop
 
+![Devops in loop](./images/loop.PNG)
+
 ￼
 
 ## Continuous development
