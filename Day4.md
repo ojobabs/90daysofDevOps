@@ -22,13 +22,13 @@ Bring it all together... a good idea or not? Discuss? (I had to copy this direct
 
 The combination of Agile and DevOps brings the following benefits you get
 
-  Flexible management and powerful technology
+  -Flexible management and powerful technology
 
-  Agile practices help DevOps teams to communicate their priorities more efficiently
+  -Agile practices help DevOps teams to communicate their priorities more efficiently
 
-  The automation cost that you have to pay for your DevOps practices are justified by your agile requirement of deploying quickly and frequently
+  -The automation cost that you have to pay for your DevOps practices are justified by your agile requirement of deploying quickly and frequently
 
-  It leads to strengthening the team adopting agile practices will improve collaboration increase the team's motivation and decrease employee turnover rates
+  -It leads to strengthening the team adopting agile practices will improve collaboration increase the team's motivation and decrease employee turnover rates
   As a result, you get better product quality
 
 ** Resources
