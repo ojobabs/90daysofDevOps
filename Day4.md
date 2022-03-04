@@ -30,3 +30,13 @@ The combination of Agile and DevOps brings the following benefits you get
 
   It leads to strengthening the team adopting agile practices will improve collaboration increase the team's motivation and decrease employee turnover rates
   As a result, you get better product quality
+
+** Resources
+
+[DevOps for Developers -- Day in the Life: DevOps Engineer in 2021](https://www.youtube.com/watch?v=2JymM0YoqGA)
+[3 Things I wish I knew as a DevOps Engineer](https://www.youtube.com/watch?v=udRNM7YRdY4)
+[How to become a DEVOPS Engineer feat. Shawn Powers](https://www.youtube.com/watch?v=kDQMjAQNvY4)
+
+I am closer to the main deal, It is been a great learning so far.
+
+See you in Day 5==>>
