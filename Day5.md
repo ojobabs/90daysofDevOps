@@ -3,15 +3,13 @@
 DevOps framework  | CI/CD--CD=> Continous Delivery —Plan ->Code -> Build -> Test
 CI => Continuous Integration  — Deploy -> Operate -> Monitor
 ￼
-The DevOps process begins with planning, it is advisable that the Devops engineer be involved in the planning  of a development sprint. 
-
 ## Plan
 
-It all starts with the planning process this is where the development team gets together and figure out what types of features and bug fixes that they're going to roll out in their next sprint. This is an opportunity as a DevOps Engineer for you to get involved with that and learn what kinds of things are going to be coming your way that you need to be involved with and also influence their decisions or their path and kind of help them work with the infrastructure that you've built or steer them towards something that's going to work better for them in case they're not on that path and so one key thing to point out here is the developers or software engineering team is your customer as a DevOps engineer so this is your opportunity to work with your customer before they go down a bad path.
+The DevOps process begins with planning, it is advisable that the Devops engineer be involved in the planning  of a development sprint.
 
 ## Code
 
-Now once that planning session's done they're going to go start writing the code you may or may not be involved a whole lot with this one of the places you may get involved with it, is whenever they're writing code you can help them better understand the infrastructure so if they know what services are available and how to best talk with those services so they're going to do that and then once they're done they'll merge that code into the repository
+Once the planning session is completed, more of the coding is excuted by the development team
 
 ## Build
 
@@ -37,4 +35,10 @@ Once it's deployed we are going to operate it and operate it may involve somethi
 
 All of the above parts lead to the final step because you need to have monitoring, especially around operational issues auto-scaling troubleshooting like you don't know there's a problem if you don't have monitoring in place to tell you that there's a problem so some of the things you might build monitoring for are memory utilization CPU utilization disk space, api endpoint, response time, how quickly that endpoint is responding and a big part of that as well is logs. Logs give developers the ability to see what is happening without having to access production systems.
 
-** Still editing though
+-- Resources**
+
+- [DevOps for Developers -- Software or DevOps Engineer?](https://www.youtube.com/watch?v=a0-uE3rOyeU)
+  
+- [Techworld with Nana -DevOps Roadmap 2022 - How to become a DevOps Engineer? What is DevOps?](https://www.youtube.com/watch?v=9pZ2xmsSDdo&t=125s)
+
+- [How to become a DevOps Engineer in 2021 - DevOps Roadmap](https://www.youtube.com/watch?v=5pxbp6FyTfk)
