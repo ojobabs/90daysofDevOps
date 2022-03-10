@@ -2,7 +2,7 @@
 
 ### How Go works 
 
-Micheal explained this concept on [Day 8](Day8.md) and I apologize for not been able to commit on the original day 9,but God's glory here we are today. 
+Micheal explained this concept on [Day 8](Day8.md) and I apologize for not been able to commit on the original day 9,but to God's glory here we are today. 
  
 In this section, we are going to take a deeper look into the code and understand a few more things about the Go language. 
 
