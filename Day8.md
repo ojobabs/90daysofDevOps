@@ -63,16 +63,21 @@ func main() {
     fmt.Println("Hello #90DaysOfDevOps")
 }
 ```
+
 Now I appreciate that the above might make no sense at all, but we will cover more about functions, packages and more in later days. For now let's run our app. Back in the terminal and in our Hello folder we can now check that all is working. Using the command below we can check to see if our generic learning program is working.
 
 ```
 go run main.go
 ```
+
 ![](images/Go/Day8_Go11.png)
 
 It doesn't end there though, what if we now want to take our program and run it on other Windows machines? We can do that by building our binary using the following comman
 
 ```
 go build main.go
-``` 
+```
+
 ![](images/Go/Day8_Go12.png)
+
+**See you in Day 9**
