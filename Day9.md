@@ -11,7 +11,7 @@ Before we get into the [6 lines of the Hello World code](Go/hello.go) we need to
 
 Programming languages that we commonly use such as Python, Java, Go and C++ are high-level languages. Meaning they are human-readable but when a machine is trying to execute a program it needs to be in a form that a machine can understand. We have to translate our human-readable code to machine code which is called compiling. 
 
-![](Images/Day9_Go1.png)
+![](images/Go/Day9_Go1.png)
 
 From the above you can see what we did on [Day 8](day08.md) here, we created a simple Hello World main.go and we then used the command `go build main.go` to compile our executable. 
 
@@ -25,13 +25,13 @@ Go encourages you to organise your code in packages so that it is easy to reuse 
 ### Hello #90DaysOfDevOps Line by Line 
 Now let's take a look at our Hello #90DaysOfDevOps main.go file and walk through the lines. 
 
-![](Images/Day9_Go2.png)
+![](images/Go/Day9_Go2.png)
 
 In the first line, you have `package main` which means that this file belongs to a package called main. All .go files need to belong to a package, they should also have `package something` in the opening line. 
 
 A package can be named whatever you wish. We have to call this `main` as this is the starting point of the program that is going to be in this package, this is a rule. (I need to understand more about this rule?)    
 
-![](Images/Day9_Go3.png)
+![](images/Go/Day9_Go3.png)
 
 Whenever we want to compile and execute our code we have to tell the machine where the execution needs to start. We do this by writing a function called main. The machine will look for a function called main to find the entry point of the program. 
 
@@ -39,15 +39,15 @@ A function is a block of code that can do some specific task for and can be used
 
 You can declare a function with any name using `func` but in this case we need to name it `main` as this is where the code starts. 
 
-![](Images/Day9_Go4.png)
+![](images/Go/Day9_Go4.png)
 
 Next we are going to look at line 3 of our code, the import, this basically means you want to bring in another package to your main program. fmt is a standard package being used here provided by Go, this package contains the `Println()`function and because we have imported this we can use this in line 6. There are a number of standard packages you can include in your program and leverage or reuse them in your code saving you the hassle of having to write from scratch. [Go Standard Library](https://pkg.go.dev/std)
 
-![](Images/Day9_Go5.png)
+![](images/Go/Day9_Go5.png)
 
 the `Println()` that we have here is a way in which to write to a standard output to the terminal where ever the executuable has been executed succesfully. Feel free to change the message in between the (). 
 
-![](Images/Day9_Go6.png)
+![](images/Go/Day9_Go6.png)
 
 ### TLDR
 
