@@ -15,23 +15,23 @@ The output should be similar to mine (with a different username may be) which is
 ```
 Then within here, we created 3 directories. **src**, **pkg** and **bin**
 
-![](images/Go/Day10_Go1.png)
+![](images/Day10_Go1.png)
 
 **src** is where all of your Go programs and projects are stored. This handles namespacing package management for all your Go repositories. This is where you will see on our workstation we have our Hello folder for the Hello #90DaysOfDevOps project.
 
-![](images/Go/Day10_Go2.png)
+![](images/Day10_Go2.png)
 
 **pkg** is where your archived files of packages that are or were installed in programs. This helps to speed up the compiling process based on if the packages being used have been modified.
 
-![](images/Go/Day10_Go3.png)
+![](images/Day10_Go3.png)
 
 **bin** is where all of your compiled binaries are stored.
 
-![](images/Go/Day10_Go4.png)
+![](images/Day10_Go4.png)
 
 Our Hello #90DaysOfDevOps is not a complex program so here is an example of a more complex Go Program taken from another great resource worth looking at [GoChronicles](https://gochronicles.com/)
 
-![](images/Go/Day10_Go5.png)
+![](images/Day10_Go5.png)
 
 This page also goes into some great detail about why and how the layout is like this it also goes a little deeper on other folders we have not mentioned [GoChronicles](https://gochronicles.com/project-structure/)
 
@@ -52,15 +52,15 @@ It is worth noting that you can install additional tools that are not in the sta
 
 If you open your command prompt and type `go` you should see something like the image below and then you will see "Additional Help Topics" below that for now we don't need to worry about those.
 
-![](images/Go/Day10_Go6.png)
+![](images/Day10_Go6.png)
 
 You might also remember that we have already used at least two of these tools so far on Day 8.
 
-![](images/Go/Day10_Go7.png)
+![](images/Day10_Go7.png)
 
 The ones we want to learn more about are build, install and run.
 
-![](images/Go/Day10_Go8.png)
+![](images/Day10_Go8.png)
 
 - `go run` - This command compiles and runs the main package comprised of the .go files specified on the command line. The command is compiled to a temporary folder.
 - `go build`  - To compile packages and dependencies, compile the package in the current directory. If the `main` package, will place the executable in the current directory if not then it will place the executable in the `pkg` folder. `go build` also enables you to build an executable file for any Go Supported OS platform.
@@ -68,7 +68,7 @@ The ones we want to learn more about are build, install and run.
 
 We have run through go build and go run but feel free to run through them again here if you wish, `go install` as stated above puts the executable in our bin folder.
 
-![](images/Go/Day10_Go9.png)
+![](images/Day10_Go9.png)
 
 Hopefully, if you are following along you are watching one of the playlists or videos below, I am taking bits of all of these and translating these into my notes so that I can understand the foundational knowledge of the Golang language. The resources below are likely going to give you a much better understanding of a lot of the areas you need overall but I am trying to document the 7 days or 7 hours worth of the journey with interesting things that I have found.
 

@@ -4,11 +4,11 @@ Before we get into some of the fundamentals of Go we should get Go installed on 
 
 First of all, let's head on over to [go.dev/dl](https://go.dev/dl/) and you will be greeted with some available options for downloads.
 
-![](images/Go/Day8_Go1.png)
+![](images/Day8_Go1.png)
 
 If we made it this far you probably know which workstation operating system you are running so select the appropriate download and then we can get installing. I am using Windows for this walkthrough, basically, from this next screen, we can leave all the defaults in place for now. ***(I will note that at the time of writing this was the latest version so screenshots might be out of date)***
 
-![](images/Go/Day8_Go2.png)
+![](images/Day8_Go2.png)
 
 Also note if you do have an older version of Go installed you will have to remove this before installing, Windows has this built into the installer and will remove and install as one.
 
@@ -16,41 +16,41 @@ Once finished you should now open a command prompt/terminal and we want to check
 
 `go version`
 
-![](images/Go/Day8_Go3.png)
+![](images/Day8_Go3.png)
 
 Next up we want to check our environment for Go. This is always good to check to make sure your working directories are configured correctly, as you can see below we need to make sure you have the following directory on your system.
 
-![](images/Go/Day8_Go4.png)
+![](images/Day8_Go4.png)
 
 Did you check? Are you following along? You will probably get something like the below if you try and navigate there.
 
-![](images/Go/Day8_Go5.png)
+![](images/Day8_Go5.png)
 
 Ok, let's create that directory for ease I am going to use the mkdir command in my powershell terminal. We also need to create 3 folders within the Go folder as you will see also below.
 
-![](images/Go/Day8_Go6.png)
+![](images/Day8_Go6.png)
 
 Now we have Go installed and we have our Go working directory ready for action. We now need an  integrated development environment (IDE) Now there are many out there available that you can use but the most common and the one I use is Visual Studio Code or Code. You can learn more about IDEs [here](https://www.youtube.com/watch?v=vUn5akOlFXQ).
 
 If you have not downloaded and installed VSCode already on your workstation then you can do so by heading [here](https://code.visualstudio.com/download). As you can see below you have your different OS options.
 
-![](images/Go/Day8_Go7.png)
+![](images/Day8_Go7.png)
 
 Much the same as with the Go installation we are going to download and install and keep the defaults. Once complete you can open VSCode and you can select Open File and navigate to our Go directory that we created above.
 
-![](images/Go/Day8_Go8.png)
+![](images/Day8_Go8.png)
 
 You may get a popup about trust, read it if you want and then hit Yes, trust the authors. (I am not responsible later on though if you start opening things you don't trust!)
 
 Now you should see the three folders we also created earlier as well and what we want to do now is right click the src folder and create a new folder called `Hello`
 
-![](images/Go/Day8_Go9.png)
+![](images/Day8_Go9.png)
 
 Pretty easy stuff I would say up till this point? Now we are going to create our first Go Program with no understanding about anything we put in this next phase.
 
 Next create a file called `main.go` in your `Hello` folder. As soon as you hit enter on the main.go you will be asked if you want to install the Go extension and also packages you can also check that empty pkg file that we made a few steps back and notice that we should have some new packages in there now?
 
-![](images/Go/Day8_Go10.png)
+![](images/Day8_Go10.png)
 
 Now let's get this Hello World app going, copy for the following code into your new main.go file and save that.
 
@@ -70,7 +70,7 @@ Now I appreciate that the above might make no sense at all, but we will cover mo
 go run main.go
 ```
 
-![](images/Go/Day8_Go11.png)
+![](images/Day8_Go11.png)
 
 It doesn't end there though, what if we now want to take our program and run it on other Windows machines? We can do that by building our binary using the following comman
 
@@ -78,6 +78,6 @@ It doesn't end there though, what if we now want to take our program and run it 
 go build main.go
 ```
 
-![](images/Go/Day8_Go12.png)
+![](images/Day8_Go12.png)
 
 **See you in Day 9**
