@@ -80,4 +80,6 @@ go build main.go
 
 ![](images/Day8_Go12.png)
 
+[Code here](Go/main.go)
+
 **See you in Day 9**
