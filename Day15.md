@@ -8,22 +8,22 @@ For SSH you won't need the username and password, you will only need that if you
 
 This is where we want to be as per below: 
 
-![](images/Day15 (1).png)
+![](images/15%20(1).png)
 
 ## Commands 
 
 Obviously I cannot cover all the commands here, there are  pages and pages of documentation that cover these but also if you are ever in your terminal and you just need to understand options to a specific command we have the `man` pages short for manual. We can use this to go through each of the commands we touch on during this post to find out more options for each one. We can run `man man` which will give you the help for manual pages. To escape the man pages you should press `q` for quit. 
 
-![](images/Day15 (2).png)
-![](images/Day15 (3).png)
+![](images/15%20(2).png.png)
+![](images/15%20(3).png.png)
 
 `sudo` If you are familar with Windows and the right click `run as administrator` we can think of `sudo` as very much this. When you run a command with this command you will be running it as `root` it will prompt you for the password before running the command. 
 
-![](images/Day15_Linux4.png)
+
 
 For one off jobs like installing applications or services you might need that `sudo command` but what if you have several tasks to deal with and you want to live as `sudo` for a while? This is where you can use `sudo su` again the same as `sudo` once entered you will be prompted for your `root` password. In a test VM like ours this is fine but I would find it very hard for us to be rolling around as `root` for prolonged periods, bad things can happen. To get out of this elevated position you simply type in `exit` 
 
-![](images/Day15 (4).png)
+![](images/15%20(4).png)
 
 I find myself using `clear` all the time, the `clear` command does exactly what it says it is going to clear the screen of all previous commands, putting your prompt to the top and giving you a nice clean workspace. Windows I think is `cls` in the cmd prompt. 
 
@@ -104,7 +104,7 @@ echo 'export HISTSIZE=100000' >> ~/.bash_profile
 echo 'export HISTFILESIZE=10000000' >> ~/.bash_profile
 ```
 
-![](images/Day15 (5).png)
+![](images/15%20(5).png)
 
 Need to change your password? `passwd` is going allow us to change our password. Note that when you add your password in like this when it is hidden it will not be shown in `history` however if your command has `-p PASSWORD` then this will be visible in your `history`. 
 
@@ -112,7 +112,7 @@ Need to change your password? `passwd` is going allow us to change our password.
 
 We might also want to add new users to our system, we can do this with `useradd` we have to add the user using our `sudo` command, we can add a new user with `sudo useradd NewUser`
 
-![](images/Day15 (6).png)
+![](images/15%20(6).png)
 
 Creating a group again requires `sudo` and we can use `sudo groupadd DevOps` then if we want to add our new user to that group we can do this by running `sudo usermod -a -G DevOps` `-a` is add and `-G` is group name. 
 
@@ -139,7 +139,7 @@ You will also see `777` or `775` and these represent the same numbers as the lis
 
 Let's take a look at our file. `ls -al Day15` you can see the 3 groups mentioned above, user and group has read & write but everyone only has read. 
 
-![](images/Day15 (7).png)
+![](images/15%20(7).png)
 
 We can change this using `chmod` you might find yourself doing this if you are creating binaries a lot on your systems as well and you need to give the ability to execute those binaries. `chmod 750 Day15` now run `ls -al Day15` if you want to run this for a whole folder then you can use `-R` to recursively do that. 
 
@@ -158,11 +158,11 @@ If you are looking to read streams of data from standard input, then generates a
 
 If I want to compact that list I can do so by using `xargs` in a command like this `cut -d: -f1 < /etc/passwd | sort | xargs` 
 
-![](images/Day15 (8).png)
+![](images/15%20(8).png)
 
 I didn't mention the `cut` command either, this allows us to remove sections from each line of a file. It can be used to cut parts of a line by byte position, character and field. The `cut -d " " -f 2 list.txt` command allows us to remove that first letter we have and just display our numbers. There are so many combinations that can be used here with this command, I am sure I have spent too much time trying to use this command when I could have extracted data quicker manually. 
 
-![](images/Day15 (9).png)
+![](images/15%20(9).png)
 
 Also to note if you type a command and you are no longer with happy with it and you want to start again just hit control + c and this will cancel that line and start you fresh. 
 
