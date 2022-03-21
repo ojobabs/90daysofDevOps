@@ -1,5 +1,7 @@
 # Automate tasks with bash scripts
 
+**I really do not understand how Michael pull all this tasks togther daily with his fulltime job, but I must commend him and acknolwdge that this is truly a challenge. Thank you Michael.**
+
 The shell that we are going to use today is the bash but we will cover another shell tomorrow when we dive into ZSH. 
 
 BASH - **B**ourne **A**gain **Sh**ell
