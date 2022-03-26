@@ -1,5 +1,7 @@
 # The OSI Model - The 7 Layers
 
+**It has been a long week, but I am happy to resume back to this.**
+
 The overall purpose of networking as an industry is to allow two hosts to share data before networking if I want to get data from this host to this host I'd have to plug something into this host walk it over to the other host plug it into the other host.
 
 Networking allows us to automate this by allowing the host to share data automatically across the wire for these hosts to do this they must follow a set of rules.
