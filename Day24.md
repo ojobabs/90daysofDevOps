@@ -1,4 +1,7 @@
-# Network Automation 
+# Network Automation
+
+**What is network Automation?**
+__Network automation is the practice of utilizing software to automate network and security provisioning and administration in order to maximize network efficiency and functionality on a continuous basis.__
 
 ## Basics of network automation
 
@@ -26,9 +29,9 @@ We should identify the tasks and perform a discovery on network change requests 
 - Make a list of all the change requests and workflows that are currently being addressed manually. 
 - Determine the most common, time-consuming and error-prone activities. 
 - Prioritise the requests by taking a business-driven approach. 
-- This is the framework for building an automation process, what must be automated and what must not. 
+- This is the framework for building an automation process, what must be automated and what must not.
 
-We should then divide tasks and analyse how different network functions work and interact with each other. 
+We should then divide tasks and analyse how different network functions work and interact with each other.
 
 - Infrastructure/Network team receives change tickets at multiple layers to deploy applications. 
 - Based on Network services, divide them into different areas and understand how they interact with each other. 
@@ -75,7 +78,7 @@ Operating System - As I have throughout this challenge, I am focusing on doing m
 
 Integrated Development Environment (IDE) - Again not much to say here other than throughout I would suggest Visual Studio Code as your IDE, based on the extensive plugins that are available for so many different languages. 
 
-Configuration Management - We have not got to the Configuration management section yet, but it is very clear that Ansible is a favourite in this area for managing and automating configurations. Ansible is written in Python but you do not need to know Python. 
+Configuration Management - We have not got to the Configuration management section yet, but it is very clear that **Ansible** is a favourite in this area for managing and automating configurations. Ansible is written in Python but you do not need to know Python. 
     
 - Agentless 
 - Only requires SSH
